@@ -61,7 +61,7 @@ setup(
     packages=find_packages(exclude=["tests", "examples", "examples.*"]),
     install_requires=[
         "graphene>=3.0,<4",
-        "graphql-core>=3.1.0,<4",
+        "graphql-core~=3.1.0",
         "graphql-relay>=3.1.1,<4",
         "Django>=2.2",
         "promise>=2.1",
